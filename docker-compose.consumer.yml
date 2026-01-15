@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   consumer:
     build:
@@ -12,5 +14,5 @@ services:
 
     volumes:
       - ./release/config:/app/config:ro
-      - ./runtime/consumer/logs:/data/logs
+      - /home/kafkaproducer/test_log_file/:/data/logs
 
