@@ -44,6 +44,8 @@
     </dependencies>
 
     <build>
+        <finalName>kafka-producer</finalName>
+
         <plugins>
 
             <!-- Java compiler -->

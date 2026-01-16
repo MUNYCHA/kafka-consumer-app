@@ -155,7 +155,7 @@ public class TopicConsumer implements Runnable {
         ServerStorageSnapshot serverStorageSnapshot =
                 mapper.readValue(record.value(), ServerStorageSnapshot.class);
 
-        System.out.println("===== SYSTEM STORAGE METRIC RECEIVED =====");
+        System.out.println("===== SERVER STORAGE SNAPSHOT RECEIVED =====");
         System.out.println("Server   : " + serverStorageSnapshot.getServerName());
         System.out.println("IP       : " + serverStorageSnapshot.getServerIp());
         System.out.println("Timestamp: " + serverStorageSnapshot.getTimestamp());
