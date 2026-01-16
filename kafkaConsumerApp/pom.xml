@@ -44,7 +44,7 @@
     </dependencies>
 
     <build>
-        <finalName>kafka-producer</finalName>
+        <finalName>kafka-consumer</finalName>
 
         <plugins>
 
